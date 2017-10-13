@@ -1,9 +1,12 @@
 class Bowling
     def initialize
-        def add_score(pins)
-        end
-        
-        def total_score
-        end
+        @total_score = 0
+    end
+    def add_score(pins)
+        @total_score += pins
+    end
+    
+    def total_score
+        @total_score
     end
 end
